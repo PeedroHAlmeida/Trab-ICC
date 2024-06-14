@@ -25,7 +25,7 @@
                     repositório. A execução desse comando cria um novo subdiretório .git no diretório de trabalho atual.
                 </p>
                 <p>Veja o exemplo:</p>
-                <img src="img/Captura de tela de 2024-06-06 14-33-26.png">
+                <img src="img/init.png">
             </li>
             <li>
                 <p><i>clone</i>:</p>
@@ -35,59 +35,41 @@
                     bifurcado
                     do ramo ativo atualmente do repositório clonado .</p>
                 <p>Veja o exemplo:</p>
-                <img src="img/Captura de tela de 2024-06-06 14-41-23.png">
+                <img src="img/clone.png">
             </li>
             <li>
                 <p><i>branch</i>:</p>
-                <p>O comando <mark>git branch</mark> permite criar, listar, renomear e excluir ramificações.</p>
+                <p>O comando <mark> git branch</mark> é utilizado para gerenciar branches (ramificações) em um repositório Git.</p>
                 <p>Veja o exemplo:</p>
-                <img src="img/Captura de tela de 2024-06-06 14-47-51.png">
-                <p>Não comando mostrou as branchs que o usuário já fez, como ainda não tinhamos feito nenhuma branch ele nos mostrou nada</p>
+                <img src="img/branch.png">
+                <p>O comando exibiu a branch de criação pois foi a unica feita até o momento</p>
             </li>
             <li>
                 <p><i>checkout</i>:</p>
-                <p>O comando <mark>git checkout</mark> permite navegar entre ramificações criadas pelo <small>git
-                        branch</small>
-                </p>
+                <p>O comando <mark>git checkout</mark> permite navegar entre ramificações criadas pelo 'git branch'</p>
                 <p>Veja o exemplo:</p>
-                <img>
+                <img src="img/checkout.png">
             </li>
             <li>
                 <p><i>status</i>:</p>
-                <p>O comando <mark>git status</mark> exibe as condições do diretório de trabalho e da área de staging.
-                    Ele
-                    permite que você veja quais alterações foram despreparadas, quais não foram e quais arquivos não
-                    estão
-                    sendo
-                    monitorados pelo Git.</p>
-                <p>Veja o exemplo:</p>
-                <img>
+                <p>O comando <mark>git status</mark> é usado para exibir o estado atual do repositório de trabalho e da área de staging. Ele mostra quais alterações foram feitas, quais arquivos estão no staging e quais não estão, além de informar sobre qualquer commit pendente.</p>
+                <img src="img/status.png">
             </li>
             <li>
                 <p><i>diff</i>:</p>
-                <p>O comando <mark>git diff</mark> exibe as alterações entre a árvore de trabalho, o índice ou uma
-                    árvore,
-                    as
-                    alterações entre o índice e uma árvore, as alterações entre as duas árvores, nas alterações
-                    resultantes
-                    de
-                    uma mesclagem, nas alterações entre dois objetos gota ou nas alterações entre dois arquivos no
-                    disco.
+                <p>O comando <mark>git diff</mark> é uma ferramenta poderosa para revisar e entender mudanças em seu código, é usado para visualizar as diferenças entre commits, branches, e o estado do diretório de trabalho. Ele é especialmente útil para detectar erros antes de fazer um commit e para revisar mudanças entre diferentes versões de seu código.
                 </p>
                 <p>Veja o exemplo:</p>
-                <img>
+                <img src="img/diff.png">
             </li>
             <li>
                 <p><i>add</i>:</p>
-                <p>O comando <mark>git add</mark> em geral ele adiciona o conteúdo atual dos caminhos existentes como um
-                    todo,
-                    mas com algumas opções ele também pode ser utilizado para adicionar o conteúdo com apenas a parte
-                    das
-                    alterações aplicadas nos arquivos da árvore de trabalho ou remover os caminhos que não existam mais
-                    na
-                    árvore de trabalho.</p>
+                <p>Quando você modifica, adiciona ou exclui arquivos no diretório de trabalho, essas mudanças não são automaticamente incluídas no próximo commit. Você deve usar <mark>git add</mark> para indicar ao Git quais mudanças devem ser incluídas no próximo commit. O comando git add não faz um commit, ele apenas adiciona as mudanças ao índice (staging area).</p>
                 <p>Veja o exemplo:</p>
-                <img>
+                <img src="img/add.png">
+                <p>Para adicionar todos os arquivos modificados no diretório de trabalho ao índice, você pode usar o ponto (.):
+
+                </p>
             </li>
             <li>
                 <p><i>commit</i>:</p>
